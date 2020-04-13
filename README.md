@@ -18,15 +18,23 @@ Where can I get the latest release?
 You can download source and binaries from our [download page](https://bardframework.org/proper/bard-parent/download_bard-parent.cgi).
 
 Alternatively you can pull it from the central Maven repositories:
-
 ```xml
 <dependency>
-  <groupId>org.bardframework</groupId>
-  <artifactId>bard-parent</artifactId>
-  <version>1</version>
+    <groupId>org.bardframework</groupId>
+    <artifactId>bard-parent</artifactId>
+    <version>1</version>
+    <type>pom</type>
+    <scope>import</scope>
 </dependency>
 ```
-
+or use it as parent pom:
+```xml
+<parent>
+    <groupId>org.bardframework</groupId>
+    <artifactId>bard-parent</artifactId>
+    <version>1</version>
+</parent>
+```
 Contributing
 ------------
 
