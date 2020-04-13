@@ -10,12 +10,12 @@ The Bard Framework Parent POM provides common settings for all Bard's components
 Documentation
 -------------
 
-More information can be found on the [Bard Framework Parent homepage](https://bardframework.org/proper/bard-parent).
+More information can be found on the [Bard Framework homepage](https://bardframework.org).
 Questions related to the usage of Bard Framework Parent should be posted to the [user mailing list][ml].
 
 Where can I get the latest release?
 -----------------------------------
-You can download source and binaries from our [download page](https://bardframework.org/proper/bard-parent/download_bard-parent.cgi).
+You can download it from [download page](https://repo1.maven.org/maven2/org/bardframework/bard-parent).
 
 Alternatively you can pull it from the central Maven repositories:
 ```xml
@@ -56,8 +56,8 @@ You like Bard Framework? Then [donate](https://bardframework.org/donate) to supp
 
 Additional Resources
 --------------------
-+ [Bard Framework Homepage](https://bardframework.org/)
-+ [Bard Framework Issue Tracker](https://issues.bardframework.org/browse/BARDPARENT)
++ [Bard Framework Homepage](https://bardframework.org)
++ [Bard Framework Parent Issue Tracker](https://github.com/bardframework/bard-parent/issues)
 + [Bard Framework Twitter Account](https://twitter.com/BardFramework)
 
 [ml]:https://bardframework.org/mail-lists.html
