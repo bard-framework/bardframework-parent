@@ -8,13 +8,13 @@ follow so that we can have a chance of keeping on top of things.
 Getting Started
 ---------------
 
-+ Make sure you have a [GitHub account](https://github.com/signup/free).
-+ If you're planning to implement a new feature it makes sense to discuss your changes on the [dev list](https://bardframework.org/mail-lists.html) first. This way you can make sure you're not wasting your time on something that isn't considered to be in Bard 's scope.
++ Make sure you have a [GitHub account][github-signup].
++ If you're planning to implement a new feature it makes sense to discuss your changes on the [dev list][mails] first. This way you can make sure you're not wasting your time on something that isn't considered to be in Bard 's scope.
 + Submit a [Ticket] for your issue, assuming one does not already exist.
   + Clearly describe the issue including steps to reproduce when it is a bug.
   + Make sure you fill in the earliest version that you know has the issue.
-+ Find the corresponding [repository on GitHub](https://github.com/bardframework?tab=repositories),
-[fork](https://help.github.com/articles/fork-a-repo/) and check out your forked repository.
++ Find the corresponding [repository on GitHub][github-search],
+[fork][github-fork] and check out your forked repository.
 
 Making Changes
 --------------
@@ -57,7 +57,15 @@ If you prefer to not use GitHub, then you can instead use
 
 Additional Resources
 --------------------
++ [General GitHub documentation][github-help]
++ [GitHub pull request documentation][github-pull-request]
++ [Bard Framework Twitter Account][twitter]
 
-+ [General GitHub documentation](https://help.github.com/)
-+ [GitHub pull request documentation](https://help.github.com/articles/creating-a-pull-request/)
-+ [Bard Framework Twitter Account](https://twitter.com/BardFramework)
+[github-fork]:https://help.github.com/en/github/getting-started-with-github/fork-a-repo
+[github-help]:https://help.github.com
+[github-pull-request]:https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request
+[github-search]:https://github.com/bardframework?tab=repositories
+[github-signup]:https://github.com/signup/free
+[mails]:https://bardframework.org/mails-list.html
+[maven]:https://maven-badges.herokuapp.com/maven-central/org.bardframework/bard-parent
+[twitter]:https://twitter.com/BardFramework

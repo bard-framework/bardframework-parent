@@ -1,21 +1,21 @@
 Bard Framework Parent
 ===================
 
-[![Build Status](https://travis-ci.org/bardframework/bard-parent.svg)](https://travis-ci.org/bardframework/bard-parent)
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/org.bardframework/bard-parent/badge.svg)](https://maven-badges.herokuapp.com/maven-central/org.bardframework/bard-parent/)
-[![License](http://img.shields.io/:license-apache-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0.html)
+[![Build Status][ci-badge]][ci]
+[![Maven Central][maven-badge]][maven]
+[![License][license-badge]][license]
 
 The Bard Framework Parent POM provides common settings for all Bard's components.
 
 Documentation
 -------------
 
-More information can be found on the [Bard Framework homepage](https://bardframework.org).
-Questions related to the usage of Bard Framework Parent should be posted to the [user mailing list][ml].
+More information can be found on the [Bard Framework homepage][homepage].
+Questions related to the usage of Bard Framework Parent should be posted to the [user mailing list][mails].
 
 Where can I get the latest release?
 -----------------------------------
-You can download it from [download page](https://repo1.maven.org/maven2/org/bardframework/bard-parent).
+You can download it from [download page][download].
 
 Alternatively you can pull it from the central Maven repositories:
 ```xml
@@ -38,7 +38,7 @@ or use it as parent pom:
 Contributing
 ------------
 
-We accept Pull Requests via GitHub. The [developer mailing list][ml] is the main channel of communication for contributors.
+We accept Pull Requests via GitHub. The [developer mailing list][mails] is the main channel of communication for contributors.
 There are some guidelines which will make applying PRs easier for us:
 + No spaces! Please use tabs for indentation.
 + Respect the code style.
@@ -48,16 +48,27 @@ You can learn more about contributing via GitHub in our [contribution guidelines
 
 License
 -------
-This code is under the [Apache Licence v2](https://www.apache.org/licenses/LICENSE-2.0).
+This code is under the [Apache Licence v2][license].
 
 Donations
 ---------
-You like Bard Framework? Then [donate](https://bardframework.org/donate) to support the development.
+You like Bard Framework? Then [donate][donate] to support the development.
 
 Additional Resources
 --------------------
-+ [Bard Framework Homepage](https://bardframework.org)
-+ [Bard Framework Parent Issue Tracker](https://github.com/bardframework/bard-parent/issues)
-+ [Bard Framework Twitter Account](https://twitter.com/BardFramework)
++ [Bard Framework Homepage][homepage]
++ [Bard Framework Parent Issue Tracker][issues]
++ [Bard Framework Twitter Account][twitter]
 
-[ml]:https://bardframework.org/mail-lists.html
+[ci]:https://travis-ci.org/bardframework/bard-parent
+[ci-badge]:https://travis-ci.org/bardframework/bard-parent.svg
+[donate]:https://bardframework.org/donate
+[download]:https://repo1.maven.org/maven2/org/bardframework/bard-parent
+[homepage]:https://bardframework.org
+[issues]:https://github.com/bardframework/bard-parent/issues
+[license]:http://www.apache.org/licenses/LICENSE-2.0
+[license-badge]:http://img.shields.io/:license-apache-blue.svg
+[mails]:https://bardframework.org/mails-list.html
+[maven]:https://maven-badges.herokuapp.com/maven-central/org.bardframework/bard-parent
+[maven-badge]:https://maven-badges.herokuapp.com/maven-central/org.bardframework/bard-parent/badge.svg
+[twitter]:https://twitter.com/BardFramework
