@@ -38,10 +38,6 @@
         </developer>
     </developers>
 
-    <prerequisites>
-        <maven>3.0.5</maven>
-    </prerequisites>
-
     <properties>
         <coveralls-maven-plugin.version>4.3.0</coveralls-maven-plugin.version>
         <jacoco-maven-plugin.version>0.8.6</jacoco-maven-plugin.version>
@@ -52,6 +48,7 @@
         <maven-source-plugin.version>3.2.1</maven-source-plugin.version>
         <nexus-staging-maven-plugin.vesion>1.6.8</nexus-staging-maven-plugin.vesion>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>
 
     <build>
