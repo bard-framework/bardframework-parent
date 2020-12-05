@@ -6,7 +6,7 @@
 
     <groupId>org.bardframework</groupId>
     <artifactId>bard-parent</artifactId>
-    <version>2</version>
+    <version>3</version>
 
     <packaging>pom</packaging>
 
@@ -44,7 +44,7 @@
 
     <properties>
         <coveralls-maven-plugin.version>4.3.0</coveralls-maven-plugin.version>
-        <jacoco-maven-plugin.version>0.8.5</jacoco-maven-plugin.version>
+        <jacoco-maven-plugin.version>0.8.6</jacoco-maven-plugin.version>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
         <maven-javadoc-plugin.version>3.2.0</maven-javadoc-plugin.version>

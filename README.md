@@ -22,7 +22,7 @@ Alternatively you can pull it from the central Maven repositories:
 <dependency>
     <groupId>org.bardframework</groupId>
     <artifactId>bard-parent</artifactId>
-    <version>2</version>
+    <version>3</version>
     <type>pom</type>
     <scope>import</scope>
 </dependency>
@@ -32,7 +32,7 @@ or use it as parent pom:
 <parent>
     <groupId>org.bardframework</groupId>
     <artifactId>bard-parent</artifactId>
-    <version>2</version>
+    <version>3</version>
 </parent>
 ```
 Contributing
