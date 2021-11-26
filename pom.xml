@@ -6,7 +6,7 @@
 
     <groupId>org.bardframework</groupId>
     <artifactId>bard-parent</artifactId>
-    <version>3</version>
+    <version>4</version>
 
     <packaging>pom</packaging>
 
@@ -40,11 +40,11 @@
 
     <properties>
         <coveralls-maven-plugin.version>4.3.0</coveralls-maven-plugin.version>
-        <jacoco-maven-plugin.version>0.8.6</jacoco-maven-plugin.version>
+        <jacoco-maven-plugin.version>0.8.7</jacoco-maven-plugin.version>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
-        <maven-javadoc-plugin.version>3.2.0</maven-javadoc-plugin.version>
-        <maven-gpg-plugin.version>1.6</maven-gpg-plugin.version>
+        <maven-javadoc-plugin.version>3.3.1</maven-javadoc-plugin.version>
+        <maven-gpg-plugin.version>3.0.1</maven-gpg-plugin.version>
         <maven-source-plugin.version>3.2.1</maven-source-plugin.version>
         <nexus-staging-maven-plugin.vesion>1.6.8</nexus-staging-maven-plugin.vesion>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
