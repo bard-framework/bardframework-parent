@@ -42,12 +42,14 @@ or use it as parent pom:
 Contributing
 ------------
 
-We accept Pull Requests via GitHub. The [developer mailing list][mails] is the main channel of communication for contributors.
+We accept Pull Requests via GitHub. The [developer mailing list][mails] is the main channel of communication for
+contributors.
 There are some guidelines which will make applying PRs easier for us:
 
 + No spaces! Please use tabs for indentation.
 + Respect the code style.
-+ Create minimal diffs - disable on save actions like reformat source code or organize imports. If you feel the source code should be reformatted create a separate PR for this change.
++ Create minimal diffs - disable on save actions like reformat source code or organize imports. If you feel the source
+  code should be reformatted create a separate PR for this change.
 
 You can learn more about contributing via GitHub in our [contribution guidelines](CONTRIBUTING.md).
 
