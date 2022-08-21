@@ -6,13 +6,18 @@
 
     <groupId>org.bardframework</groupId>
     <artifactId>bard-parent</artifactId>
-    <version>12</version>
+    <version>13</version>
 
     <packaging>pom</packaging>
 
     <name>Bard Framework Parent</name>
     <description>The Bard Framework Parent POM provides common settings for all Bards components.</description>
-    <url>https://github.com/bardframework/bard-parent</url>
+    <url>https://github.com/bardframework</url>
+
+    <organization>
+        <name>Bard Framework</name>
+        <url>https://github.com/bardframework/</url>
+    </organization>
 
     <scm>
         <connection>scm:git:git://github.com/bardframework/bard-parent.git</connection>
