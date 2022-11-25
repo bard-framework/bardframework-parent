@@ -6,7 +6,7 @@
 
     <groupId>org.bardframework</groupId>
     <artifactId>bard-parent</artifactId>
-    <version>14</version>
+    <version>15</version>
 
     <packaging>pom</packaging>
 
@@ -54,7 +54,7 @@
         <maven-source-plugin.version>3.2.1</maven-source-plugin.version>
         <nexus-staging-maven-plugin.vesion>1.6.13</nexus-staging-maven-plugin.vesion>
         <!-- variables -->
-        <maven.compiler.release>11</maven.compiler.release>
+        <maven.compiler.release>17</maven.compiler.release>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>
