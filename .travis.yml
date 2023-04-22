@@ -1,8 +1,8 @@
 language: java
 os:
-  - linux
+    - linux
 dist: xenial
 jdk:
-  - openjdk17
+    - openjdk17
 script:
-  - mvn clean package
+    - mvn clean package
