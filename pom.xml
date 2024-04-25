@@ -6,7 +6,7 @@
 
     <groupId>org.bardframework</groupId>
     <artifactId>bard-parent</artifactId>
-    <version>21</version>
+    <version>22</version>
 
     <packaging>pom</packaging>
 
@@ -42,13 +42,13 @@
     <properties>
         <!-- plugin versions -->
         <coveralls-maven-plugin.version>4.3.0</coveralls-maven-plugin.version>
-        <jacoco-maven-plugin.version>0.8.11</jacoco-maven-plugin.version>
-        <maven-compiler-plugin.version>3.11.0</maven-compiler-plugin.version>
+        <jacoco-maven-plugin.version>0.8.12</jacoco-maven-plugin.version>
+        <maven-compiler-plugin.version>3.13.0</maven-compiler-plugin.version>
         <maven-resources-plugin.version>3.3.1</maven-resources-plugin.version>
-        <maven-jar-plugin.version>3.3.0</maven-jar-plugin.version>
+        <maven-jar-plugin.version>3.4.1</maven-jar-plugin.version>
         <maven-javadoc-plugin.version>3.6.3</maven-javadoc-plugin.version>
-        <maven-gpg-plugin.version>3.1.0</maven-gpg-plugin.version>
-        <maven-source-plugin.version>3.3.0</maven-source-plugin.version>
+        <maven-gpg-plugin.version>3.2.4</maven-gpg-plugin.version>
+        <maven-source-plugin.version>3.3.1</maven-source-plugin.version>
         <nexus-staging-maven-plugin.vesion>1.6.13</nexus-staging-maven-plugin.vesion>
         <!-- variables -->
         <maven.compiler.release>17</maven.compiler.release>
@@ -120,6 +120,19 @@
                             <goals>
                                 <goal>prepare-agent</goal>
                             </goals>
+                        </execution>
+                        <execution>
+                            <id>report</id>
+                            <goals>
+                                <goal>report</goal>
+                            </goals>
+                            <configuration>
+                                <formats>
+                                    <format>XML</format>
+                                    <format>HTML</format>
+                                    <format>CSV</format>
+                                </formats>
+                            </configuration>
                         </execution>
                     </executions>
                 </plugin>
